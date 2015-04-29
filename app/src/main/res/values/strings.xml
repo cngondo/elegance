@@ -13,4 +13,5 @@
     <string name="hintusername">Please enter username</string>
     <string name="hintpass">Please enter password</string>
     <string name="hintconfirm">Please confirm pword</string>
+    <string name="title_activity_login">Login</string>
 </resources>

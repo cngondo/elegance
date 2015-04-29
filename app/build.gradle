@@ -11,6 +11,14 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    productFlavors{
+        paid{
+            applicationId "elegance.example.ngondo.elegance.paid"
+        }
+        demo{
+            applicationId "elegance.example.ngondo.elegance.demo"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
