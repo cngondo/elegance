@@ -13,6 +13,7 @@ public class Home extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         //testing git
+        //Added another comment
     }
 
 
