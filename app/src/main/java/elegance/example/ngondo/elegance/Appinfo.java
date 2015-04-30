@@ -33,6 +33,7 @@ public class Appinfo extends ActionBarActivity {
             }
         });
     }
+    //This is a comment
 
 
     @Override
