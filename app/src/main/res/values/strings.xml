@@ -17,4 +17,7 @@
     <string name="splashstring">Elegance</string>
     <string name="title_activity_appinfo">Appinfo</string>
     <string name="mainmenu">GO TO MAIN MENU ></string>
+    <string name="logintext">Login with:</string>
+    <string name="create">Create Account</string>
+    <string name="email">Email:</string>
 </resources>

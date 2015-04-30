@@ -28,7 +28,5 @@
             android:text="@string/mainmenu"
             android:background="@android:color/transparent"
             android:id="@+id/gotomenu" />
-
-
     </LinearLayout>
 </RelativeLayout>
