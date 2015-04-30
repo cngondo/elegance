@@ -7,93 +7,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="elegance.example.ngondo.elegance.Splash"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/splash_elegance"
+    android:gravity="center">
 
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="30"
-            android:layout_gravity="center_vertical|left"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/username"
-            android:id="@+id/textView" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|right"
-            android:hint="@string/hintusername"
-            android:layout_weight="70"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:id="@+id/editText" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="30"
-            android:layout_gravity="center_vertical|left"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/password"
-            android:id="@+id/textView2" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|right"
-            android:layout_weight="70"
-            android:hint="@string/hintpass"
-            android:inputType="textPassword"
-            android:ems="10"
-            android:id="@+id/editText2" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|right"
-            android:layout_weight="30"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/confirm"
-            android:id="@+id/textView4" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|left"
-            android:hint="@string/hintconfirm"
-            android:layout_weight="70"
-            android:inputType="textPassword"
-            android:ems="10"
-            android:id="@+id/editText5" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="right">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/submit"/>
-    </LinearLayout>
-
-
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/splashstring"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        />
 </LinearLayout>
