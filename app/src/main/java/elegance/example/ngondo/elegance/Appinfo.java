@@ -1,18 +1,37 @@
 package elegance.example.ngondo.elegance;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.Button;
 
 import elegance.example.ngondo.elegance.R;
 
 public class Appinfo extends ActionBarActivity {
+    Button btn_gotomenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_appinfo);
+        //Button declaration
+        btn_gotomenu=(Button)findViewById(R.id.gotomenu);
+        //Listener
+        btn_gotomenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Appinfo.this,Login.class);
+                startActivity(i);
+            }
+        });
     }
 
 
